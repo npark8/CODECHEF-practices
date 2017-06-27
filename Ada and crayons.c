@@ -1,4 +1,5 @@
-// https://www.codechef.com/problems/ADACRA/
+/* https://www.codechef.com/problems/ADACRA/
+   2017/06/24 Saturday */
 
 #include <stdio.h>
 #include <string.h>
