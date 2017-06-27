@@ -1,3 +1,5 @@
+// https://www.codechef.com/problems/ADACRA/
+
 #include <stdio.h>
 #include <string.h>
  
