@@ -1,2 +1,2 @@
 # CODECHEF-practices
-daily coding practice
+simple coding practices
