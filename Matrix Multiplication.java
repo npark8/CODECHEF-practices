@@ -1,5 +1,8 @@
 /* http://www.programmr.com/challenges/matrix-multiplication-1
-   2017/09/20 Wednesday */
+ * 2017/09/20 Wednesday 
+ * Question:
+ * Write a program to takes two matrix(3*3) array as inputs and calculate the multiplication of both matrix. 
+ */
 
 import java.io.*;
 import java.util.*; 
@@ -32,16 +35,17 @@ class MatrixMultiplication{
     int x = 0; int y = 0;
     while(count < 9){
         for(int j = 0; j < 3; j++) {
-           // System.out.println(array[x][j] + " " + array1[j][y]);
+           // calculate one element
           res += array[x][j] * array1[j][y]; 
         }
-        //System.out.println(res + " at: " + x + "," + y);
         array2[x][y] = res;
         count++;
-        //System.out.println(count);
+        //increment column for the right matrix
         y++;
         res = 0;
+        //increment row of the left matrix when the entire row elements are calculated
         if(count==3||count==6||count==9) x++;
+        //reset column to the first one for next row element calculation
         if(y==3) y=0;
     }
   //end
