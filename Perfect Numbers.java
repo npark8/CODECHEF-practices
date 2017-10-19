@@ -1,5 +1,27 @@
 /* http://www.programmr.com/challenges/perfect-number
-   2017/09/21 Thursday */
+ * 2017/09/21 Thursday 
+ *
+ * Question:
+ *
+ * Complete the following program to find whether given number is perfect or not. 
+ * Perfect number is a positive number which sum of all positive divisors
+ * excluding that number is equal to that number. For example 6 is perfect number
+ * since divisor of 6 are 1, 2 and 3. Sum of its divisor is 1 + 2 + 3 = 6
+ * Note: 6 is the smallest perfect number.
+ * Next perfect number is 28
+ *
+ * Example1:
+ * Enter a number:
+ * 6
+ * the result is:
+ * given number is a perfect number
+ *
+ * Example2:
+ * Enter a number:
+ * 5
+ * the result is:
+ * given number is not a perfect number 
+ */
 
 import java.io.*;
 import java.util.List;
