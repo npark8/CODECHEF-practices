@@ -1,5 +1,17 @@
 /* http://www.programmr.com/challenges/find-day-given-date-1
- **/
+ * Question:
+ *
+ * Write a program to takes input date as [dd/mm/yyyy] formate and find out the day of entered date.
+ *
+ * for e.g.:
+ * 1. If user gives input date 12/12/1988 then the output will be in this formate:
+ * Day is Monday
+ *
+ * 2.If user gives input date 01/01/1985 then the output will be in this formate:
+ * Day is Tuesday
+ *
+ * Note:Make sure the input and output string must be same as given example.
+ */
 
 
 import java.io.*;
